@@ -80,7 +80,7 @@ python rag.py rag -q "YOUR-QUESTION-HERE"
 
 ### What Worked
 
-- Using `VectorStoreIndex.from_documents(documents).vector_store` as a simple, effective solution for vector storage.
+- Using `VectorStoreIndex.from_documents(documents).vector_store` as a simple solution for vector storage.
 - Implementing a chat engine using:
 
 ```python
@@ -102,5 +102,5 @@ If I had more time, I would:
 
 - **Add Chat History:** Make the app remember and build upon previous queries.
 - **Implement History Management:** Allow clearing or saving history as needed.
-- **Testing:** Add unit tests to ensure robustness and reliability.
+- **Testing:** Add unit tests to ensure reliability.
 
